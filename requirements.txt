@@ -1,0 +1,18 @@
+GPUtil
+dropbox
+xpflow
+wandb
+wget
+datasets==2.5.2
+bigbench @ git+https://github.com/google/BIG-bench.git
+tensorflow
+torch
+transformers
+pandas
+numpy
+scikit-learn
+easydict
+tqdm
+appdirs
+tf-keras
+python-dotenv
