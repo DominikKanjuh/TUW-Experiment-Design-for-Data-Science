@@ -217,7 +217,7 @@ class penha(base):
 
 # Load environment variables from .env file and login to wandb
 load_dotenv()
-wandb.login(key=os.getenv("WANDB_API_KEY"))
+wandb.login(key=os.getenv("WANDB_API_KEY"), relogin=True)
 
 
 for xp in tqdm(
